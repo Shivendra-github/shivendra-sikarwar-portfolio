@@ -1,0 +1,200 @@
+@font-face {
+  font-family: Quickfont;
+  src: url(./fonts/6xKtdSZaM9iE8KbpRA_hK1QN.woff2);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html body {
+  font-family: Quickfont;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+#back-img {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  object-fit: cover;
+  object-position: top;
+}
+
+#Welcome,
+#Projects,
+#About,
+#Contact {
+  color: #39f;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#namelogo {
+  color: rgba(230, 208, 185, 0.9);
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  
+}
+
+#navbarNav {
+  box-shadow: 4px 6px 6px rgba(230, 208, 185, 0.9);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index:2;
+}
+
+#main-intro {
+  height: 100vh;
+  color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 2px 2px 0px grey;
+}
+
+.container {
+  margin: 0 auto;
+
+  background-color: rgba(230, 208, 185, 0.9);
+  padding: 2.7em 3em;
+  border-radius: 10px;
+  width: 80vw;
+  max-width: 1600px;
+  margin: 3.2rem auto;
+  box-shadow: 5px 5px 30px grey;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+#project-container {
+  padding-top: 10px;
+}
+
+.fa-color {
+  color: rgb(20, 110, 190);
+}
+
+#main-intro h1 {
+  font-weight: bold;
+}
+
+.main-container {
+  position: sticky;
+}
+
+.tile {
+  /* TODO: MODULE_CARDS */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+  border-radius: 10px;
+  width: 100%;
+  
+
+  
+
+  /* 1. Fill in the required properties. */
+}
+
+.tile img {
+  /* TODO: MODULE_CARDS */
+  /* 1. Fill in the required properties. */
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+  box-shadow: 3px 3px 8px grey;
+
+}
+
+/* *{
+  
+  
+  border:2px solid red;
+  
+  } */
+
+.tile img:hover {
+  /* TODO: MODULE_CARDS */
+  /* 1. Fill in the required properties. */
+  /* filter: brightness(50%); */
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.container h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#footer {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 0 30px;
+  
+  width: 80%;
+}
+
+#footer-icons{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+
+}
+
+#footer-row{
+
+display: flex;
+justify-content: center;
+
+}
+
+
+
+#footer-end {
+  text-align: center;
+  padding: 2.7em 3em;
+  width: 80vw;
+  max-width: 1600px;
+  margin: 1rem auto;
+  font-weight: 700;
+
+  overflow: hidden;
+}
+
+#footer-end p {
+  margin: 0;
+  text-shadow: 4px 4px 10px rgba(230, 208, 185, 1);
+  text-shadow: 1px 1px 0 #000;
+  color: white;
+}
+
+#footer-end span {
+  color: #39f;
+}
+
+
+nav-a  a:focus,a:hover {
+    color: #b45922
+}
